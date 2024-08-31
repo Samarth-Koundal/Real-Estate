@@ -1,0 +1,487 @@
+@media only screen and (max-width:575px) {
+ 
+  .navbar-brand img {
+    height: 36px;
+}
+
+.nav-link {
+  color: var(--text);
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 20px;
+  text-transform: uppercase;
+}
+.container{
+  max-width: 1400px;
+  margin: auto;
+  text-align: center;
+}
+
+.phone-num {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.phone-num a {
+  color: var(--text);
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 0px 15px 0px 0px;
+}
+.btn-nav {
+  padding: 8px 17px;
+  border: 1px solid var(--clr--first);
+  color: var(--text);
+  background: var(--clr--first);
+  border-radius: 5px;
+  font-size: 12px;
+}
+.input input {
+  width: 100%;
+  padding: 6px 30px;
+  border: 1px solid var(--clr--para);
+  outline: none;
+  border-radius: 5px;
+}
+
+.dropdown .btn {
+  padding: 6px 20px;
+  background: transparent;
+  color: var(--clr--para);
+  border: 1px solid var(--clr--para);
+  border-radius: 5px;
+}
+
+.btn-search {
+  padding: 6px 30px;
+  outline: none;
+  color: var(--text);
+  background: var(--clr-bg);
+  border: 1px solid var(--clr--para);
+  border-radius: 5px;
+}
+.option {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px 0px;
+  background: var(--text);
+  margin-top: 68px;
+}
+  .option-button{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .carousel-caption {
+    position: relative;
+    right: 15%;
+    bottom: 0.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 2rem;
+    color: #fff;
+    text-align: center;
+    left: 0;
+}
+
+
+.scrole img{
+  position: absolute;
+}
+
+.banner-content {
+  max-width: 300px;
+  margin: auto;
+  border-radius:23px;
+  color: var(--text);
+  position: relative;
+  padding: 8px 0px;
+  overflow: hidden;
+  margin-top: 20px 0px;
+}
+
+.banner-content h3{
+  font-size: 18px;
+}
+
+.banner-content h1{
+  font-size: 20px;
+}
+
+.banner-content p{
+  font-size: 14px;
+}
+
+.banner-content h2{
+  font-size: 20px;
+}
+
+.banner-content button{
+  padding: 4px 8px;
+  font-size: 14px;
+}
+
+
+
+  .card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .card{
+    margin-bottom: 20px;
+  }
+  .help-detail {
+    margin-bottom: 20px;
+  }
+
+  .property h1{
+    font-size: 22px;
+  }
+
+  .property p{
+    font-size: 12px;
+  }
+
+  .agent h2{
+    font-size: 22px;
+  }
+  .agent p{
+    font-size: 12px;
+  }
+
+  .subscribe h1{
+    font-size: 22px;
+  }
+
+  .subscribe p{
+    font-size: 12px;
+  }
+  .help-heading h3 {
+    color: var(--text);
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+  .latest h1 {
+    color: var(--clr--head);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.latest p {
+  color: var(--clr--para);
+  font-size: 12px;
+}
+
+  .apartment{
+    background: var(--clr--bg);
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    border-radius: 8px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+
+  .foot-logo img {
+    width: 50%;
+    
+  }
+  
+  .foot-logo{
+    text-align: center;
+  }
+
+  .foot-logo p {
+    font-size: 12px;
+  }
+  .foot-content {
+    display: flex;
+    margin: 60px 0px;
+    justify-content:center;
+    line-height: 2;
+    text-align: left;
+    flex-wrap: wrap;
+    gap: 65px;
+}
+
+.subs-img img {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+
+}
+
+@media only screen and (max-width:767px)and (min-width:576px)
+
+{
+
+  .navbar-brand img {
+    height: 36px;
+}
+
+.container{
+  max-width: 1400px;
+  margin: auto;
+  text-align: center;
+}
+
+.phone-num {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.btn-nav {
+  padding: 8px 17px;
+  border: 1px solid var(--clr--first);
+  color: var(--text);
+  background: var(--clr--first);
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+  .option-button{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+ 
+  .help-detail {
+    margin-bottom: 20px;
+  }
+
+  .latest h1 {
+    color: var(--clr--head);
+    font-size: 26px;
+    font-weight: 600;
+}
+
+
+.property h1{
+  font-size: 26px;
+}
+
+.property p{
+  font-size: 14px;
+}
+
+.agent h2{
+  font-size: 26px;
+}
+.agent p{
+  font-size: 14px;
+}
+
+.subscribe h1{
+  font-size: 26px;
+}
+
+.subscribe p{
+  font-size: 14px;
+}
+.help-heading h3 {
+  color: var(--text);
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+
+.latest p {
+color: var(--clr--para);
+font-size: 14px;
+}
+
+.subscribe-btn button {
+  padding: 8px 20px;
+  outline: none;
+  background: var(--clr--first);
+  color: var(--text);
+  border: 1px solid var(--clr--first);
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.foot-logo img {
+  width: 50%;
+  
+}
+
+.foot-logo{
+  text-align: center;
+}
+  .foot-content {
+    display: flex;
+    margin: 60px 0px;
+    justify-content:center;
+    line-height: 2;
+    text-align: left;
+    flex-wrap: wrap;
+    gap: 65px;
+}
+
+.apartment{
+  background: var(--clr--bg);
+  padding: 30px 0px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  border-radius: 8px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+    .banner-content {
+        max-width: 800px;
+        margin: auto;
+        background: #2a2a2a80;
+        padding: 12px 0px;
+        border-radius: 20px;
+        color: var(--text);
+    }
+
+
+}
+
+@media only screen and (max-width:991px) and (min-width:768px){
+
+
+  .navbar-brand img{
+    width: 100px;
+  }
+
+  .navbar-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+
+  .offcanvas-header {
+    background: var(--clr--first);
+    height: 88px;
+}
+
+  .phone-num {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.btn-nav{
+  margin-top: 10px;
+}
+  .option-button{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+
+
+  .banner-content {
+    max-width: 800px;
+    margin: auto;
+    background: #2a2a2a80;
+    margin-bottom: 36px;
+    padding: 12px 0px;
+    color: var(--text);
+  }
+
+ 
+  .help-detail {
+    margin-bottom: 20px;
+  }
+
+  .property-btn button {
+    padding: 8px 20px;
+    border: 1px solid var(--clr--first);
+    background: var(--clr--first);
+    color: var(--text);
+    border-radius: 5px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+  .subscribe-btn button {
+    padding: 8px 20px;
+    outline: none;
+    background: var(--clr--first);
+    color: var(--text);
+    border: 1px solid var(--clr--first);
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  .foot-logo img {
+    width: 50%;
+    
+  }
+  
+  .foot-logo{
+    text-align: center;
+  }
+  .foot-content {
+    display: flex;
+    margin: 60px 0px;
+    justify-content:center;
+    line-height: 2;
+    text-align: left;
+    flex-wrap: wrap;
+    gap: 65px;
+}
+
+
+}
+
+
+@media only screen and (max-width:1199px) and (min-width:992px){
+
+  .option-button{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+
+  .banner-content {
+    max-width: 800px;
+    margin: auto;
+    background: #2a2a2a80;
+    margin-bottom: 80px;
+    padding: 30px 0px;
+   border-radius: 20px;
+    color: var(--text);
+  }
+
+  .foot-content {
+    display: flex;
+    margin: 60px 0px;
+    justify-content:center;
+    line-height: 2;
+    text-align: left;
+    flex-wrap: wrap;
+    gap: 65px;
+}
+}

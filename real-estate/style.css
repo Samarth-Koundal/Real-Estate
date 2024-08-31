@@ -1,0 +1,412 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --clr-bg:#004274;
+  --clr--first: #00AEFF;
+  --clr--head: #192839;
+  --clr--para: #656565;
+  --clr--bg: #FBF9FF;
+  --text: #fff;
+}
+
+
+.container{
+  max-width: 1400px;
+  margin: auto;
+}
+
+.top-bar{
+  width: 100%;
+  background: var(--clr-bg);
+  margin: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+.navbar-brand img{
+ height: 63px;
+}
+.offcanvas-header{
+  background: var(--clr--first);
+  height: 62px;
+}
+.offcanvas-body{
+  background: var(--clr-bg);
+}
+.nav-link{
+  color: var(--text);
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.nav-link:hover{
+color: #00AEFF;
+}
+.phone-num{
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+}
+.phone-num a{
+color: var(--text);
+font-size: 18px;
+font-weight: 600;
+text-decoration: none;
+margin: 0px 15px 0px 0px;
+}
+
+.btn-nav{
+  padding: 10px 20px;
+  border: 1px solid var(--clr--first);
+  color: var(--text);
+  background: var(--clr--first);
+  border-radius: 5px;
+}
+
+.btn-nav:hover{
+  color: var(--text);
+  border: 1px solid var(--clr--first);
+  background:transparent;
+}
+
+.option{
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px 0px;
+  background: var(--text);
+  margin-top: 90px;
+}
+
+.input{
+  position: relative;
+}
+
+.input i{
+  position: absolute;
+  transform: translate(40%,-50%);
+  top: 50%;
+}
+.input input{
+  width: 100%;
+  padding: 8px 30px;
+  border: 1px solid var(--clr--para);
+  outline: none;
+  border-radius: 5px;
+}
+.option-button{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.dropdown .btn{
+ padding: 8px 20px;
+ background: transparent;
+ color: var(--clr--para);
+ border: 1px solid var(--clr--para);
+ border-radius: 5px;
+}
+.dropdown .btn:hover{
+  color: var(--clr--first);
+  background-color: var(--text);
+  border: 1px solid var(--clr--first);
+}
+
+.btn-search{
+  padding: 8px 20px;
+  outline: none;
+  color: var(--text);
+  background: var(--clr-bg);
+  border: 1px solid var(--clr--para);
+border-radius: 5px;
+}
+.btn-search:hover{
+  background: transparent;
+  color: var(--clr--para);
+}
+
+.banner{
+  position: relative;
+}
+.banner-content{
+max-width:800px;
+margin: auto;
+background: #2a2a2a80;
+margin-bottom:170px;
+padding: 30px 0px;
+border-radius: 20px;
+color: var(--text);
+
+
+}
+
+.view-property{
+  background: var(--clr-bg);
+  color: var(--text);
+  padding: 10px 30px;
+  text-transform: capitalize;
+  outline: none;
+  border: 1px solid var(--clr-bg);
+  border-radius: 6px;
+}
+.view-property:hover{
+  background: var(--text);
+  color: var(--clr--para);
+}
+
+.display{
+  padding: 60px 0px;
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.latest h1{
+  color: var(--clr--head);
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.latest p{
+  color: var(--clr--para);
+  font-size: 18px;
+}
+
+.card-wrapper{
+  display: flex;
+}
+.card{
+  margin: 0px 10px;
+  
+}
+
+
+.card-body a{
+  display: flex;
+  text-decoration: none;
+  flex-direction: start;
+}
+
+.card-body h5{
+  display: flex;
+  flex-direction: start;
+  margin: 8px 0px;
+}
+
+ .card-text{
+  text-align: left;
+}
+.help{
+  background: url(./images/slide-2.png)  no-repeat center;
+  background-size: cover;
+  object-fit: cover;
+  padding: 60px 0;
+
+}
+
+.help-heading h3{
+  color: var(--text);
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.help-details{
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  background: var(--clr--first);
+  border-radius: 8px;
+}
+
+.help-detail{
+  border: 1px solid #e3dfdf79;
+  text-align: center;
+  padding: 30px 8px;
+  border-radius: 8px;
+}
+.help-content{
+color: var(--text);
+}
+
+.property{
+  background: #eae5e58b;
+  padding: 60px 0px;
+}
+.explore{
+  max-width: 1200px;
+  margin: auto;
+ 
+}
+.property-content p{
+  font-size: 18px;
+  color: var(--clr--para);
+  margin-top: 20px;
+}
+
+.property-btn button{
+  padding: 8px 20px;
+  border: 1px solid var(--clr--first);
+  background: var(--clr--first);
+  color: var(--text);
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.property-btn button:hover{
+  color: var(--clr--para);
+  background: var(--clr--bg);
+}
+
+.apartment{
+  background: var(--clr--bg);
+  padding: 30px 0px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  border-radius: 8px;
+}
+
+.agent{
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+  padding: 60px 0px;
+}
+.agent .card-body a{
+  display: flex;
+  justify-content: center;
+}
+
+.agent .card-body p{
+  text-align: center;
+}
+.subscribe{
+background: var(--clr-bg);
+padding: 60px 0px;
+}
+.subscribe-detail{
+  max-width: 1200px;
+  margin: auto;
+}
+.newsletter{
+  color: var(--text);
+}
+
+.newsletter-search input{
+  width: 100%;
+  background: var(--clr-bg);
+  border: none;
+  border-bottom: 2px solid #ffffffab;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.subscribe-btn button{
+  padding: 8px 20px;
+  outline: none;
+  background: var(--clr--first);
+  color: var(--text);
+  border: 1px solid var(--clr--first);
+  border-radius: 5px;
+}
+
+.subscribe-btn button:hover{
+  background: transparent;
+}
+
+.subs-img img{
+  width: 100%;
+  border-radius: 8px;
+}
+
+
+
+.foot-detail{
+  max-width: 1200px;
+  margin: auto;
+}
+.foot{
+  margin-bottom: 40px;
+}
+.foot-logo{
+  width: 100%;
+}
+
+.foot-logo img{
+  width: 100%;
+ 
+}
+.foot-text{
+  margin-top: -40px;
+}
+
+.foot-icon i{
+  padding-right: 8px;
+}
+
+.foot-content{
+  display: flex;
+  margin: 60px 0px;
+  justify-content: space-around;
+  line-height: 2;
+  text-align: left;
+  
+}
+.foot-content h2{
+  font-size: 26px;
+  font-weight: 600;
+  text-align: left;
+}
+
+
+.foot-content ul{
+
+padding-left: 3px;
+}
+.foot-content ul li{
+  text-decoration: none;
+  list-style: none;
+  text-align: start;
+}
+
+.foot-content ul li a{
+  color: var(--clr--para);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.foot-content ul li a:hover{
+  color:var(--clr--first);
+}
+
+.footer{
+background-color:  #f0eff28c;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+padding: 15px 0px 0px 0px;
+color: var(--clr--para);
+font-size: 14px;
+font-weight: 600;
+}
+
+.footer span{
+  border-left: 2px solid var(--clr--para);
+padding: 0px 3px;
+}
+
+.footer a{
+  text-decoration: none;
+  color: var(--clr--first);
+}
